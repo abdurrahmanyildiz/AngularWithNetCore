@@ -30,6 +30,9 @@ You can find usage of followings in angular and .net core project:
 
 -Responsive pages and sidebar menu with Bootstrap implementation
 
+# For css library you can take look at:
+https://demos.creative-tim.com/paper-dashboard/docs/1.0/components/alerts.html
+
 Responsive full page and mobile mode will be as following:
 
 ![Dashboard](https://github.com/abdurrahmanyildiz/AngularWithNetCore/blob/master/AngularWithNetCore/githubImages/home.PNG)
