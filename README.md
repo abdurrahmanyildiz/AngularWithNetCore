@@ -1,6 +1,6 @@
 # AngularWithNetCore
 
-# This is a project with an angular 8 for frontend and .net core mvc for backend.
+# This is a project with an Angular8 for frontend and .Net Core MVC for backend.
 
 Project created in Visual Studio 2017 with .Net Core 2.1. To start project, open solution in Visual Studio and run project.
 Solution will build and open a login page. You can login with username: admin and password: 12345
