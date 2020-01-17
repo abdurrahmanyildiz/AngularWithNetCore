@@ -29,7 +29,7 @@ namespace AngularWith.Controllers
                 return BadRequest("Invalid client request");
             }
 
-            if (user.UserName == "asd" && user.Password == "12345")
+            if (user.UserName == "admin" && user.Password == "12345")
             {
                 var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"));
                 var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
@@ -41,8 +41,6 @@ namespace AngularWith.Controllers
                 };
 
                 var tokeOptions = new JwtSecurityToken(
-                    issuer: "http://localhost:44308",
-                    audience: "http://localhost:44308",
                     claims:claims,
                     expires: DateTime.Now.AddMinutes(5),
                     signingCredentials: signinCredentials

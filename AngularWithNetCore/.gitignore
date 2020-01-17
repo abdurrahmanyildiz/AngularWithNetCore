@@ -183,6 +183,10 @@ orleans.codegen.cs
 
 /node_modules
 
+node_modules/
+ClientApp/node_modules
+.vs/
+
 # RIA/Silverlight projects
 Generated_Code/
 
