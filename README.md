@@ -30,3 +30,8 @@ You can find usage of followings in angular and .net core project:
 
 -Responsive pages and sidebar menu with Bootstrap implementation
 
+Responsive full page and mobile mode will be as following:
+
+![Dashboard](https://github.com/abdurrahmanyildiz/AngularWithNetCore/blob/master/AngularWithNetCore/githubImages/home.PNG)
+
+![Dashboard in mobile ](https://github.com/abdurrahmanyildiz/AngularWithNetCore/blob/master/AngularWithNetCore/githubImages/mobileHome.PNG)
